@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
@@ -21,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI curTimeText;
     private bool isPlayed = false;
     public TextMeshProUGUI buttonText;
+    public LeaderBoard leaderBoard;
     void Awake()
     {
         rig = GetComponent<Rigidbody>();
@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
     {
         timeTaken = Time.time - startTime;
         isPlaying = false;
-        LeaderBoard.instance.SetLeaderboardEntry(-Mathf.RoundToInt(timeTaken * 1000.0f));
+        leaderBoard.SetLeaderboardEntry(-Mathf.RoundToInt(timeTaken * 1000.0f));
         playButton.SetActive(true);
         buttonText.text = "Replay";
         isPlayed = true;
@@ -68,6 +68,6 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateLeaderBoard()
     {
-        LeaderBoard.instance.DisplayLeaderboard();
+        leaderBoard.DisplayLeaderboard();
     }
 }

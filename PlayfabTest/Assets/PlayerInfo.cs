@@ -10,10 +10,7 @@ public class PlayerInfo : MonoBehaviour
     [HideInInspector]
     public PlayerProfileModel profile;
     public TextMeshProUGUI LoginMessage;
-
-    public static PlayerInfo instance;
     void Awake() { 
-        instance = this;
     }
     public void OnLoggedIn()
     {

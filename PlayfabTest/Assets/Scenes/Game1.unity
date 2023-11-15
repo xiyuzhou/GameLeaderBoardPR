@@ -3412,8 +3412,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5777,6 +5777,7 @@ MonoBehaviour:
   maxCollectables: 12
   curTimeText: {fileID: 281916453}
   buttonText: {fileID: 1743230665}
+  leaderBoard: {fileID: 1089523848}
 --- !u!1 &1955002226
 GameObject:
   m_ObjectHideFlags: 0

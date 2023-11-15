@@ -4,7 +4,6 @@ using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
 using TMPro;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class LeaderBoard : MonoBehaviour
 {
@@ -13,17 +12,14 @@ public class LeaderBoard : MonoBehaviour
     public GameObject[] leaderboardEntries;
 
     private List<GameObject> playerList = new List<GameObject>();
-    public static LeaderBoard instance;
 
 
     void Awake()
     {
-        instance = this;
         foreach (var entry in leaderboardEntries)
         {
             entry.SetActive(false);
         }
-
     }
     private void Start()
     {
