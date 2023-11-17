@@ -650,8 +650,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Time
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6aa148a638fe3354bbe8cce4ad99d71b, type: 2}
+  m_sharedMaterial: {fileID: 9115216995128110954, guid: 6aa148a638fe3354bbe8cce4ad99d71b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -675,13 +675,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1429,7 +1429,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e280972569041a84da3bc08f31a18d2f, type: 2}
+  - {fileID: 2100000, guid: 5eed9afd611bbde4dadcc82ccb2e262a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2078,7 +2078,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e280972569041a84da3bc08f31a18d2f, type: 2}
+  - {fileID: 2100000, guid: 379346b152aa41441b31c3af032a0e5c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3135,7 +3135,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e280972569041a84da3bc08f31a18d2f, type: 2}
+  - {fileID: 2100000, guid: 5eed9afd611bbde4dadcc82ccb2e262a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3727,7 +3727,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e280972569041a84da3bc08f31a18d2f, type: 2}
+  - {fileID: 2100000, guid: b035a778d39e87443b2b63a8cc7fc8f0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4286,7 +4286,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e280972569041a84da3bc08f31a18d2f, type: 2}
+  - {fileID: 2100000, guid: b035a778d39e87443b2b63a8cc7fc8f0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4391,7 +4391,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e280972569041a84da3bc08f31a18d2f, type: 2}
+  - {fileID: 2100000, guid: 5eed9afd611bbde4dadcc82ccb2e262a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4542,23 +4542,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 041c437109411d643a7d2f70a6d9e873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile:
-    AdCampaignAttributions: []
-    AvatarUrl: 
-    ContactEmailAddresses: []
-    DisplayName: 
-    ExperimentVariants: []
-    LinkedAccounts: []
-    Locations: []
-    Memberships: []
-    PlayerId: 
-    PublisherId: 
-    PushNotificationRegistrations: []
-    Statistics: []
-    Tags: []
-    TitleId: 
-    ValuesToDate: []
-  LoginMessage: {fileID: 1252103881}
 --- !u!4 &1695078544
 Transform:
   m_ObjectHideFlags: 0
@@ -5523,7 +5506,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e280972569041a84da3bc08f31a18d2f, type: 2}
+  - {fileID: 2100000, guid: e2a1d60c66a04794bb85c2829654424d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5755,13 +5738,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913499809}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.47084424, w: 0.8822164}
   m_LocalPosition: {x: -0.3635587, y: 0.82, z: -0.023043036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 56.178}
 --- !u!114 &1913499815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5776,6 +5759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playButton: {fileID: 598294955}
   speed: 5
+  turnSpeed: 20
   maxCollectables: 12
   curTimeText: {fileID: 281916453}
   buttonText: {fileID: 1743230665}
