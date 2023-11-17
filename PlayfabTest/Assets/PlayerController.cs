@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private bool isPlayed = false;
     public TextMeshProUGUI buttonText;
     public LeaderBoard leaderBoard;
+
+    private Vector3 playerInput;
     void Awake()
     {
         rig = GetComponent<Rigidbody>();
@@ -31,11 +33,15 @@ public class PlayerController : MonoBehaviour
             return;
         float x = Input.GetAxis("Horizontal") * speed;
         float z = Input.GetAxis("Vertical") * speed;
-
-        rig.AddForce(new Vector3(x, rig.velocity.y, z) * speed);
+        playerInput = new Vector3(x, rig.velocity.y, z);
 
         curTimeText.text = (Time.time - startTime).ToString("F2");
 
+    }
+
+    private void FixedUpdate()
+    {
+        rig.AddForce(playerInput * speed);
     }
     void OnTriggerEnter(Collider other)
     {

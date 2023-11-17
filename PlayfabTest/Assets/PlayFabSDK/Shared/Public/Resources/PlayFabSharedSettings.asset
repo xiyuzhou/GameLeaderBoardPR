@@ -15,7 +15,7 @@ MonoBehaviour:
   TitleId: 171A4
   DeveloperSecretKey: WCEP61W1XZ6GFY96OW6AP7UE6M84SU7TOZUE4H55IMS9KTTJS3
   ProductionEnvironmentUrl: 
-  RequestType: 2
+  RequestType: 0
   DisableDeviceInfo: 0
   DisableFocusTimeCollection: 0
   RequestTimeout: 2000

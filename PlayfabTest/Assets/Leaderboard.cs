@@ -10,7 +10,8 @@ public class LeaderBoard : MonoBehaviour
     // Start is called before the first frame update
     public GameObject leaderboardCanvas;
     public GameObject[] leaderboardEntries;
-
+    public string leaderboardName;
+    public int maxCount;
     private List<GameObject> playerList = new List<GameObject>();
 
 
@@ -29,8 +30,8 @@ public class LeaderBoard : MonoBehaviour
     {
         GetLeaderboardRequest getLeaderboardRequest = new GetLeaderboardRequest
         {
-            StatisticName = "FastestTime",
-            MaxResultsCount = 9
+            StatisticName = leaderboardName,
+            MaxResultsCount = maxCount
         };
         PlayFabClientAPI.GetLeaderboard(getLeaderboardRequest,
         result => UpdateLeaderboardUI(result.Leaderboard),
