@@ -4539,9 +4539,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1695078542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 041c437109411d643a7d2f70a6d9e873, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a3edfd29b7611340a14bd120d9bfd36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  profile:
+    AdCampaignAttributions: []
+    AvatarUrl: 
+    ContactEmailAddresses: []
+    DisplayName: 
+    ExperimentVariants: []
+    LinkedAccounts: []
+    Locations: []
+    Memberships: []
+    PlayerId: 
+    PublisherId: 
+    PushNotificationRegistrations: []
+    Statistics: []
+    Tags: []
+    TitleId: 
+    ValuesToDate: []
+  LoginMessage: {fileID: 1252103881}
 --- !u!4 &1695078544
 Transform:
   m_ObjectHideFlags: 0

@@ -12,6 +12,10 @@ public class PlayerInfo : MonoBehaviour
     public TextMeshProUGUI LoginMessage;
     void Awake() { 
     }
+    private void Start()
+    {
+        OnLoggedIn();
+    }
     public void OnLoggedIn()
     {
         GetPlayerProfileRequest getProfileRequest = new GetPlayerProfileRequest
